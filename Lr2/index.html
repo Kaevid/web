@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style.css">
+	<title>Лабораторна робота №2</title>
+</head>
+<body>
+	<h1 align="center" >Форми HTML і позиціонування</h1>
+	<nav >
+		<p>
+			<a href="#Реєстрація" ;>Форма реєстрації</a>
+			<a href="#Вхід">Форма входу</a>
+			<a href="#Звязок">Форма зворотнього зв'язку</a>
+		</p>
+	</nav>
+	<table  class="block_for_table" >
+		<tr height=50px>
+			<th colspan="2";>Лабораторна робота №2. Виконавець: Венгренюк Арсен Тарасович, група ТР-13</th>
+		</tr>
+		<tr>
+			<td>
+				<img src="https://i.pinimg.com/564x/07/af/06/07af062826e616d581ff83cbeddbb187.jpg" align="left">
+				<b>«Володар перснів»</b>— епічний роман у жанрі «фентезі» англійського письменника, філолога та професора Оксфордського університету Дж. Толкіна. Оповідь почалася як продовження до попередньої роботи Толкіна, «Гобіт», але згодом розвинулась у набагато більшу історію. Її було написано поетапно між 1937 та 1949 роками, істотну частину — під час Другої світової війни. Роман є другим у світі бестселером, кількість проданих примірників якого перевищила 150 млн. Книга також входить у Рейтинг 100 найкращих книг усіх часів журналу Ньюсвік під номером 35 а у голосуванні The Big Read проведеного BBC 2003 року у Великій Британії роман посів перше місце.
+				<img src="https://i.pinimg.com/564x/17/2d/ca/172dca1fa497c66ac8bb78033073c5c1.jpg" align="right">
+				<br>
+				На початку 2000-их з'явилося два неліцензійні українськомовні переклади Володаря перснів зроблені Олександром Мокровольським (Київ: Школа) та Аліною Неміровою (2003, Харків: Фоліо). А перші ліцензійні українськомовні переклади Володаря перснів, зроблені Оленою Фешовець (2003-2005) та Катериною Оніщук (2013), з'явилися трохи згодом у видавництві Астролябія яке поставило собі за мету "видати українською мовою всі твори Джона Рональда Руела Толкіна".
+				<img src="https://i.pinimg.com/564x/9a/e5/14/9ae51400442c47be7f264565a2277f20.jpg">
+			</td>
+			<td>
+				<div na>
+					<img src="https://i.pinimg.com/564x/d0/be/6e/d0be6e1388962df42a0ee37b99abaa3a.jpg" id="i1">
+					<img src="https://i.pinimg.com/564x/b5/b9/1b/b5b91b214970e21363ced62cb6dcfbe5.jpg" id="i2">
+					<img src="https://i.pinimg.com/564x/13/a0/f7/13a0f73bf6a8094663afa011069cb2c5.jpg" id="i3">
+				</div>
+			</td>
+		</tr>
+	</table>
+
+	<form action="#" method="get">
+		<table class="blue_background_form">
+			<tr >
+				<th class="form_th"><a name="Реєстрація">Форма реєстрації</a></th>
+			</tr>	
+			<tr>
+				<td class="reg1">
+					<label>І'мя
+					<br>
+					<input placeholder="І'мя" type="text" name="firstname">
+					</label>
+					<br>
+					<label>Прізвище
+					<br>
+					<input type="text"placeholder="Прізвище" name="lastname">
+					</label>
+					<fieldset>
+						<legend>Стать</legend>
+						<label class="radio_size">
+							<input type="radio" name="gender" value="male">
+							Чоловіча
+						</label> 
+						<label class="radio_size">
+							<input type="radio" name="gender" value="female">
+							Жіноча
+						</label>
+					</fieldset>		
+					<label>
+						Вік
+						<input type="number" name="age">
+					</label>
+					<br>
+					<label>
+						День Народження
+						<input type="month" name="birthday">
+					</label>
+
+				</td>
+				<td class="reg1">
+					<label for="country">Країна проживання</label>
+					<br>
+					<select name="user_country" id="country">
+						<option selected disabled>Оберіть країну проживання</option>
+						<option value="UA">Україна</option>
+						<option value="POL">Польша</option>
+						<option value="LIT">Литва</option>
+						<option value="GB">Великобритания</option>
+						<option value="USA">CША</option>
+						<option value="LAT">Латвія</option>
+						<option value="EST">Естонія</option>
+						<option value="GRE">Греція</option>
+					</select>
+					<br>
+					<label>
+						Номер телефону
+						<br>
+						<input placeholder="+38(0XX)XXX-XX-XX" type="tel" name="tel">
+					</label>
+					<br>	
+					<label>
+						Соцмережа
+						<br>
+						<input type="url" name="social" placeholder="Посилання на соц.мережу" >
+					</label>
+					<br>
+					<label>
+						Електронна пошта
+						<br>
+						<input type="email" name="email" placeholder="Ел.пошта">
+					</label>
+					<br>
+					<label>
+						Пароль
+						<br> 
+						<input type="password" name="password" placeholder="Пароль" pattern="[A-Za-z0-9]{6-10}" maxlength="10">
+					</label>
+					<br>
+					<label>
+						<input type="checkbox" name="accept">
+             			Чи згодні Ви з умовами?
+             		</label>
+				</td>
+			</tr>
+
+			<tr>
+				<th colspan="2">
+					<button type="submit">Зареєструватися</button>
+                	<button type="reset">Відміна</button>
+				</th>
+			</tr>
+		</table>
+	</form>
+
+	<form action="#" method="get">
+		<table class="green_background_form">
+			<tr>
+				<th><a name="Вхід">Форма входу:</a></th>
+			</tr>
+			<tr>
+				<td>
+					<div class="login" align="center">
+					<input type="text" class="linput" placeholder="Логін" name="login">
+					<input type="password" class="linput" placeholder="Пароль" name="password" pattern="[A-Za-z0-9]{6-10}"maxlength="10">
+					<button type="submit">Вхід</button>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<form action="#" method="get" class="yellow_background_form">
+		<a name="Звязок">Форма зворотнього зв'язку:</a>
+		<div class="feedback">
+			<div>
+				<input type="text" name="name" placeholder="І'мя">
+				<br>
+				<input type="email" name="email" placeholder="Ел.пошта">
+				<br>
+				<select name="topic" placeholder="Тема">
+					<option selected disabled>Тема повідомлення</option>
+					<option value="orthographic">Скарга</option>
+					<option value="report">Прохання видалити сайт:)</option>
+					<option value="contact">Помилка в виборі професії)</option>
+				</select>
+				<br>
+				<button type="submit" id="sendFeedback">Відправити</button>
+			</div>
+			<textarea name="feedback" rows=15 cols=60 placeholder="Повідомлення"></textarea>
+		</div>
+	</form>
+
+	<a href="#"><img class="button_up" src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45796/fast-up-button-emoji-clipart-md.png"></a>
+
+	<footer>
+    <a href="https://t.me/a_rsvt">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png">
+    </a>
+  </footer>
+
+</body>
+</html>

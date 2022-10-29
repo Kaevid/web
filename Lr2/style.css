@@ -1,0 +1,207 @@
+h1{
+  font-size: 32px;
+}
+
+
+nav{
+  font-size: 22px; 
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+}
+nav a{
+  background-color: gray;
+  border: 2px solid;
+  color: black;
+  padding: 10px;
+}
+
+table{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dashed;
+  max-width: 1500px;
+  border-collapse: collapse;
+}
+
+table.block_for_table td{
+  vertical-align: top;
+  border: 1px dashed;
+  font-size: 20px;
+
+}
+table.block_for_table th{
+  font-size: 22px;
+}
+table.block_for_table div{
+  width: 500px;
+}
+img {
+  width: 250px;
+}
+
+#i1, #i2, #i3{
+  position: relative;
+}
+
+#i1{
+  top: 50px;
+  left: 60px;
+  z-index: 1;
+}
+
+#i2{
+  bottom: 50px;
+  left: 150px;
+  z-index: 2;
+}
+#i3{
+  bottom: 150px;
+  left: 240px;
+  z-index: 3;
+}
+
+.blue_background_form{
+  background-color:#0DF4F7;
+}
+
+.form_th{
+  position: relative;
+  right: 178px;
+}
+
+.reg1 {
+  padding: 50px;
+}
+
+label {
+
+  font-size: 23px;
+}
+
+input[type="text"] {
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+fieldset{
+  border: 0px;
+  font-size: 22px;
+}
+
+.radio_size{
+  font-size: 18px;
+}
+
+input[type="number"] {
+  width: 80px;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+input[type="month"] {
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+button{
+  font-size: 22px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.green_background_form{
+  background-color:#84EA69;
+  width: 500px;
+  height: 100px;
+}
+
+.login button {
+  position: relative;
+  left: 7%;
+  width: 25%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.linput {
+  display: block;
+  text-align: center;
+  width: 70%;
+  height: 30px;
+  border: 0.5px solid;
+  margin-top: 5px;
+}
+
+.yellow_background_form{
+  background-color: #D9C620;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dashed;
+  border-collapse: collapse;
+  width: 950px;
+  max-height: 350px;
+  position: relative;
+}
+
+.feedback{
+
+}
+
+.feedback input{
+  width: 300px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.feedback select{
+  width: 300px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.feedback button{
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+}
+
+.feedback textarea{
+  position: absolute;
+  left: 425px;
+  bottom: 23px;
+}
+
+.button_up {
+  width: 85px;
+  height: 85px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 5;
+}
+
+footer img{
+  padding-left: 50px;
+  padding-bottom: 5px;
+  width: 50px;
+  height: 50px;
+}
